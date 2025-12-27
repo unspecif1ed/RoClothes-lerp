@@ -478,7 +478,7 @@ function RoClothes(Player)
 	local loadupExecute = false
 	local loadupClosed = false
 
-	local Method = 2
+	local Method = 1
 	local MaxMethod = 3
 
 	local MaxBreastsType = 4
@@ -19814,3 +19814,4 @@ else
 	end
 end
 return nil
+
