@@ -1,4 +1,4 @@
- --[[	
+--[[	
 
 	/ ＲＯＣＬＯＴＨＥＳ
 	Version - 0.7.8:lerp()
@@ -8984,6 +8984,29 @@ function RoClothes(Player)
 		Pants = "11787542946"
 	}
 },
+["Moth (2)"] = {
+	["Body Color"] = {
+		["HeadColor3"] = Color3.fromRGB(248, 248, 248),
+		["LeftArmColor3"] = Color3.fromRGB(248, 248, 248),
+		["RightArmColor3"] = Color3.fromRGB(248, 248, 248),
+		["LeftLegColor3"] = Color3.fromRGB(248, 248, 248),
+		["RightLegColor3"] = Color3.fromRGB(248, 248, 248),
+		["TorsoColor3"] = Color3.fromRGB(248, 248, 248),
+	},
+	["Accessory"] = {
+		11492267232,
+      14338740199,
+      17637720483,
+      78124107081769,
+      18322309584,
+      76452257648240,
+      106087296768719
+	},
+	["Clothes"] = {
+		Shirt = "101811427606037",
+		Pants = "80949488595253"
+	}
+},
 ["Mari"] = {
 	["Body Color"] = {
 		["HeadColor3"] = Color3.fromRGB(248, 248, 248),
@@ -9019,7 +9042,7 @@ function RoClothes(Player)
       14315801199,
       15308647622,
       13840873383,
-      129621115837124
+      130721090694657
 	},
 	["Clothes"] = {
 		Shirt = "77543977953564",
@@ -19790,4 +19813,4 @@ else
 		RoClothes(PS:WaitForChild("lerp()"))
 	end
 end
-return nil
+retu
