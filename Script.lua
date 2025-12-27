@@ -1,4 +1,4 @@
---[[	
+ --[[	
 
 	/ ＲＯＣＬＯＴＨＥＳ
 	Version - 0.7.8:lerp()
@@ -8963,7 +8963,7 @@ function RoClothes(Player)
 		Pants = "131085251831876"
 	}
 },
-["Moth"] = {
+["Moth (1)"] = {
 	["Body Color"] = {
 		["HeadColor3"] = Color3.fromRGB(248, 248, 248),
 		["LeftArmColor3"] = Color3.fromRGB(248, 248, 248),
@@ -9019,7 +9019,7 @@ function RoClothes(Player)
       14315801199,
       15308647622,
       13840873383,
-      85552999798436
+      129621115837124
 	},
 	["Clothes"] = {
 		Shirt = "77543977953564",
