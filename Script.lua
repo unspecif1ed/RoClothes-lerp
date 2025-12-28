@@ -476,7 +476,7 @@ function RoClothes(Player)
 
 	local loadupBundle = "Moth (1)"  -- replace this with a bundle name to automatically load it up on execute
 	local loadupExecute = true
-	local loadupClosed = true
+	local loadupClosed = false
 
 	local Method = 2
 	local MaxMethod = 3
@@ -9242,7 +9242,7 @@ function RoClothes(Player)
 				HardcoreHP = false,
 				TopHP = 65,
 				BottomHP = 25,
-				DamageSFX = "5",
+				DamageSFX = 5,
 				Volume = 1.2,
 			},
 		},
