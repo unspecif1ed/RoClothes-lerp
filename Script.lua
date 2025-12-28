@@ -478,7 +478,7 @@ function RoClothes(Player)
 	local loadupExecute = false
 	local loadupClosed = false
 
-	local Method = 1
+	local Method = 2
 	local MaxMethod = 3
 
 	local MaxBreastsType = 4
@@ -8982,7 +8982,34 @@ function RoClothes(Player)
 	["Clothes"] = {
 		Shirt = "11787516387",
 		Pants = "11787542946"
-	}
+	},
+   ["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+            "Roblox Butt Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 1,
+				RotationPhysicsMultiply = 4,
+				BreastsScale = 1,
+				ButtsScale = 0,
+				LegsScale = 1,
+				BreastsType = 1,
+				TorsoType = 1,
+				ArmType = 1,
+				LegsType = 1,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = nil,
+				BottomHP = nil,
+	  },
 },
 ["Moth (2)"] = {
 	["Body Color"] = {
@@ -19814,4 +19841,3 @@ else
 	end
 end
 return nil
-
