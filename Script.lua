@@ -474,9 +474,9 @@ function RoClothes(Player)
 
 	local CVersion = "0.7.8:lerp()"
 
-	local loadupBundle = nil -- replace this with a bundle name to automatically load it up on execute
-	local loadupExecute = false
-	local loadupClosed = false
+	local loadupBundle = "Moth (1)"  -- replace this with a bundle name to automatically load it up on execute
+	local loadupExecute = true
+	local loadupClosed = true
 
 	local Method = 2
 	local MaxMethod = 3
@@ -8961,7 +8961,36 @@ function RoClothes(Player)
 	["Clothes"] = {
 		Shirt = "89983769425374",
 		Pants = "131085251831876"
-	}
+	},
+   ["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+            "Roblox Butt Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 1,
+				RotationPhysicsMultiply = 4,
+				BreastsScale = 1,
+				ButtsScale = 1.1,
+				LegsScale = 1,
+				BreastsType = 1,
+				TorsoType = 1,
+				ArmType = 1,
+				LegsType = 1,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = nil,
+				BottomHP = nil,
+				DamageSFX = nil,
+				Volume = 1,
+	  },
 },
 ["Moth (1)"] = {
 	["Body Color"] = {
@@ -9009,6 +9038,8 @@ function RoClothes(Player)
 				HardcoreHP = false,
 				TopHP = nil,
 				BottomHP = nil,
+				DamageSFX = nil,
+				Volume = 1,
 	  },
 },
 ["Moth (2)"] = {
@@ -9032,7 +9063,36 @@ function RoClothes(Player)
 	["Clothes"] = {
 		Shirt = "101811427606037",
 		Pants = "80949488595253"
-	}
+	},
+   ["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+            "Roblox Butt Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 1,
+				RotationPhysicsMultiply = 4,
+				BreastsScale = 1,
+				ButtsScale = 0,
+				LegsScale = 1,
+				BreastsType = 1,
+				TorsoType = 1,
+				ArmType = 1,
+				LegsType = 1,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = nil,
+				BottomHP = nil,
+				DamageSFX = nil,
+				Volume = 1,
+	  },
 },
 ["Mari"] = {
 	["Body Color"] = {
@@ -9053,7 +9113,36 @@ function RoClothes(Player)
 	["Clothes"] = {
 		Shirt = "14963327323",
 		Pants = "14963337713"
-	}
+	},
+   ["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+            "Roblox Butt Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 1,
+				RotationPhysicsMultiply = 4,
+				BreastsScale = 1.1,
+				ButtsScale = 1.2,
+				LegsScale = 1.1,
+				BreastsType = 1,
+				TorsoType = 1,
+				ArmType = 1,
+				LegsType = 1,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 75,
+				DamageSFX = nil,
+				Volume = 5,
+	  },
 },
 ["Succubus"] = {
 	["Body Color"] = {
@@ -9074,8 +9163,89 @@ function RoClothes(Player)
 	["Clothes"] = {
 		Shirt = "77543977953564",
 		Pants = "7496726154"
-	}
+	},
+   ["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 1,
+				RotationPhysicsMultiply = 4,
+				BreastsScale = 1.3,
+				ButtsScale = 1.3,
+				LegsScale = 1.2,
+				BreastsType = 3,
+				TorsoType = 2,
+				ArmType = 1,
+				LegsType = 2,
+				ButtType = 3,
+				HardcoreHP = false,
+				TopHP = 50,
+				BottomHP = 75,
+				DamageSFX = nil,
+				Volume = 5,
+	  },
 },
+		["Sushi (Swimsuit)"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(116, 134, 158),
+				["LeftArmColor3"] = Color3.fromRGB(116, 134, 158),
+				["RightArmColor3"] = Color3.fromRGB(116, 134, 158),
+				["LeftLegColor3"] = Color3.fromRGB(116, 134, 158),
+				["RightLegColor3"] = Color3.fromRGB(116, 134, 158),
+				["TorsoColor3"] = Color3.fromRGB(116, 134, 158),
+			},
+			["Accessory"] = {
+				6106459941,
+				14304385555,
+				16199722680,
+				9731173784,
+				13399898495,
+				18647692063,
+				84041839353082,
+				8518475165,
+				132526754702544,
+			},
+			["Clothes"] = {
+				["Shirt"] = 106847374928992,
+				["Pants"] = 98341126826272,
+			},
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Dark",
+				Face = false,
+				AccessorySizeLock = true,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				RealtimeBodyTransparency = false,
+				PositionPhysicsMultiply = 4,
+				RotationPhysicsMultiply = 6,
+				BreastsScale = 1.1,
+				ButtsScale = 1.2,
+				LegsScale = 1,
+				BreastsType = 1,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 2,
+				ButtType = 1,
+				HardcoreHP = false,
+				TopHP = 65,
+				BottomHP = 25,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+		},
 		["Black 1"] = {
 			["Body Color"] = {
 				["HeadColor3"] = Color3.fromRGB(255, 204, 153),
