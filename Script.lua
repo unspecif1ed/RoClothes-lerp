@@ -9154,7 +9154,6 @@ function RoClothes(Player)
 		["TorsoColor3"] = Color3.fromRGB(245, 205, 48),
 	},
 	["Accessory"] = {
-		137903047528122,
       90767576719137,
       15741649480,
       15741646703
@@ -9350,6 +9349,7 @@ TopHP = 25,
 BottomHP = 25,
 DamageSFX = 5,
 Volume = 2.5,
+},
 },
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
@@ -9556,8 +9556,10 @@ Volume = 2.5,
 		},
 		["[PRESET] Thicc"] = {
 			["Preset"] = {
+            BreastsScale = 1.3,
 				ButtsScale = 1.3,
 				LegsScale = 1.2,
+            TorsoType = 2,
 				ButtType = 3,
 				LegsType = 2
 			},
