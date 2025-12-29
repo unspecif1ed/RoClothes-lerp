@@ -474,7 +474,7 @@ function RoClothes(Player)
 
 	local CVersion = "0.7.8:lerp()"
 
-	local loadupBundle = nil -- replace this with a bundle name to automatically load it up on execute
+	local loadupBundle = nil  -- replace this with a bundle name to automatically load it up on execute
 	local loadupExecute = false
 	local loadupClosed = false
 
@@ -9080,12 +9080,12 @@ function RoClothes(Player)
 				PositionPhysicsMultiply = 1,
 				RotationPhysicsMultiply = 4,
 				BreastsScale = 1.1,
-				ButtsScale = 1.3,
+				ButtsScale = 0,
 				LegsScale = 1,
 				BreastsType = 1,
-				TorsoType = 3,
+				TorsoType = 1,
 				ArmType = 1,
-				LegsType = 2,
+				LegsType = 1,
 				ButtType = 1,
 				HardcoreHP = false,
 				TopHP = nil,
@@ -9160,8 +9160,8 @@ function RoClothes(Player)
       15741646703
 	},
 	["Clothes"] = {
-		Shirt = "8467618391",
-		Pants = "12711140572"
+		Shirt = "12711140572",
+		Pants = "8467618391"
 	},
    ["Clothing"] = {
 				"Roblox Breasts Clothing",
@@ -9295,6 +9295,62 @@ function RoClothes(Player)
 				Volume = 1.2,
 			},
 		},
+["Eunoia"] = {
+["Body Color"] = {
+["HeadColor3"] = Color3.fromRGB(255, 255, 255),
+["LeftArmColor3"] = Color3.fromRGB(255, 255, 255),
+["RightArmColor3"] = Color3.fromRGB(255, 255, 255),
+["LeftLegColor3"] = Color3.fromRGB(255, 255, 255),
+["RightLegColor3"] = Color3.fromRGB(255, 255, 255),
+["TorsoColor3"] = Color3.fromRGB(255, 255, 255),
+},
+["Accessory"] = {
+99879002067129,
+16626951876,
+73776977936801,
+109265458700043,
+13398311684,
+17797353824,
+124091787224058,
+71859470977724,
+},
+["Clothes"] = {
+["Shirt"] = 121588408775766,
+["Pants"] = 101033508416152,
+},
+["TClothes"] = {
+["Shirt"] = 71584248587570,
+["Pants"] = 98341126826272,
+},
+["Clothing"] = {
+"Roblox Breasts Clothing",
+"Roblox Shirt",
+"Roblox Pants",
+"Roblox Butt Shirt Method2",
+},
+["Preset"] = {
+Tone = "Dark",
+Face = false,
+AccessorySizeLock = true,
+BodyPartPhysics = true,
+PhysicsObeyGravity = true,
+RealtimeBodyTransparency = false,
+PositionPhysicsMultiply = 1,
+RotationPhysicsMultiply = 4,
+BreastsScale = 1.1,
+ButtsScale = 1.2,
+LegsScale = 1,
+BreastsType = 1,
+TorsoType = 3,
+ArmType = 2,
+LegsType = 2,
+ButtType = 1,
+HardcoreHP = true,
+TopHP = 25,
+BottomHP = 25,
+DamageSFX = 5,
+Volume = 2.5,
+},
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
 			["Clothing"] = {
@@ -19634,4 +19690,3 @@ else
 	end
 end
 return nil
-
