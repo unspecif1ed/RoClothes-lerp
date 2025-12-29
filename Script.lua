@@ -474,7 +474,7 @@ function RoClothes(Player)
 
 	local CVersion = "0.7.8:lerp()"
 
-	local loadupBundle = "Lumi" -- replace this with a bundle name to automatically load it up on execute
+	local loadupBundle = nil -- replace this with a bundle name to automatically load it up on execute
 	local loadupExecute = false
 	local loadupClosed = false
 
@@ -19634,3 +19634,4 @@ else
 	end
 end
 return nil
+
