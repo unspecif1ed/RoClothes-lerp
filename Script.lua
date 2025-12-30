@@ -9226,7 +9226,7 @@ function RoClothes(Player)
 				RealtimeBodyTransparency = false,
 				PositionPhysicsMultiply = 1,
 				RotationPhysicsMultiply = 4,
-				BreastsScale = 1.3,
+				BreastsScale = 1.2,
 				ButtsScale = 1.3,
 				LegsScale = 1.2,
 				BreastsType = 3,
@@ -9316,10 +9316,6 @@ function RoClothes(Player)
 ["Clothes"] = {
 ["Shirt"] = 121588408775766,
 ["Pants"] = 101033508416152,
-},
-["TClothes"] = {
-["Shirt"] = 71584248587570,
-["Pants"] = 98341126826272,
 },
 ["Clothing"] = {
 "Roblox Breasts Clothing",
@@ -9556,7 +9552,7 @@ Volume = 2.5,
 		},
 		["[PRESET] Thicc"] = {
 			["Preset"] = {
-            BreastsScale = 1.3,
+            BreastsScale = 1.2,
 				ButtsScale = 1.3,
 				LegsScale = 1.2,
             TorsoType = 2,
