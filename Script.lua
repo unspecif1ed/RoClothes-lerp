@@ -9296,12 +9296,12 @@ function RoClothes(Player)
 		},
 ["Eunoia"] = {
 ["Body Color"] = {
-["HeadColor3"] = Color3.fromRGB(255, 255, 255),
-["LeftArmColor3"] = Color3.fromRGB(255, 255, 255),
-["RightArmColor3"] = Color3.fromRGB(255, 255, 255),
-["LeftLegColor3"] = Color3.fromRGB(255, 255, 255),
-["RightLegColor3"] = Color3.fromRGB(255, 255, 255),
-["TorsoColor3"] = Color3.fromRGB(255, 255, 255),
+["HeadColor3"] = Color3.fromRGB(248, 248, 248),
+["LeftArmColor3"] = Color3.fromRGB(248, 248, 248),
+["RightArmColor3"] = Color3.fromRGB(248, 248, 248),
+["LeftLegColor3"] = Color3.fromRGB(248, 248, 248),
+["RightLegColor3"] = Color3.fromRGB(248, 248, 248),
+["TorsoColor3"] = Color3.fromRGB(248, 248, 248),
 },
 ["Accessory"] = {
 99879002067129,
@@ -9321,7 +9321,7 @@ function RoClothes(Player)
 "Roblox Breasts Clothing",
 "Roblox Shirt",
 "Roblox Pants",
-"Roblox Butt Shirt Method2",
+"Roblox Butt Shirt",
 },
 ["Preset"] = {
 Tone = "Dark",
