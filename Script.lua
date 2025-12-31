@@ -474,7 +474,7 @@ function RoClothes(Player)
 
 	local CVersion = "0.7.8:lerp()"
 
-	local loadupBundle = nil  -- replace this with a bundle name to automatically load it up on execute
+	local loadupBundle = "Eunoia"  -- replace this with a bundle name to automatically load it up on execute
 	local loadupExecute = false
 	local loadupClosed = false
 
@@ -9296,12 +9296,12 @@ function RoClothes(Player)
 		},
 ["Eunoia"] = {
 ["Body Color"] = {
-["HeadColor3"] = Color3.fromRGB(248, 248, 248),
-["LeftArmColor3"] = Color3.fromRGB(248, 248, 248),
-["RightArmColor3"] = Color3.fromRGB(248, 248, 248),
-["LeftLegColor3"] = Color3.fromRGB(248, 248, 248),
-["RightLegColor3"] = Color3.fromRGB(248, 248, 248),
-["TorsoColor3"] = Color3.fromRGB(248, 248, 248),
+["HeadColor3"] = Color3.fromRGB(255, 255, 255),
+["LeftArmColor3"] = Color3.fromRGB(255, 255, 255),
+["RightArmColor3"] = Color3.fromRGB(255, 255, 255),
+["LeftLegColor3"] = Color3.fromRGB(255, 255, 255),
+["RightLegColor3"] = Color3.fromRGB(255, 255, 255),
+["TorsoColor3"] = Color3.fromRGB(255, 255, 255),
 },
 ["Accessory"] = {
 99879002067129,
